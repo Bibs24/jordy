@@ -1,0 +1,195 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+.navbar-brand{
+    font-size: 2rem;
+    color: black;
+    font-family: 'Lobster', cursive;
+}
+.navbar-brand:hover{
+    color: black;
+}
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+    font-family: 'Rubik', sans-serif;
+    text-transform: uppercase;
+}   
+.nav-link:hover{
+    color: black;
+}
+.search{
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    border: 2px solid rgb(0, 7, 2);
+    font-family: 'Rubik', sans-serif;
+    margin-right: -35px;
+}
+.btn0{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background:rgb(0, 8, 2);
+    color: rgb(252, 249, 249);
+    border-radius: 60px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+}
+.main{
+    background: url(./images/i9.jpg)no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: 50% 50%;
+    width: 100%;
+}
+.main h1{
+    font-size: 4rem;
+    font-weight: 700;
+    color: black;
+}
+.btn1{
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+.btn1:hover{
+    background-color:gray;
+}
+h1{
+    font-weight: 700;
+}
+h6,p{
+    color: black;
+}
+.card:hover{
+    box-shadow: -2px -1px 24px -4px rgba(0,0,0,0.75);
+-webkit-box-shadow: -2px -1px 24px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: -2px -1px 24px -4px rgba(0,0,0,0.75);
+}
+.play-button{
+    width: 50px;
+    position: relative;
+    top: -50%;
+    cursor: pointer;
+    transition: 0.5s;
+    opacity: 0;
+}
+.col-md-4:hover .play-button{
+    opacity: 1;
+}
+.modal-content{
+    background:transparent !important;
+    border: none;
+}
+.whatsapp-float{
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+}
+.whatsapp-icon{
+    margin-top: 16px;
+}
+.footer .box-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+
+}
+
+.footer .box-container .box{
+    flex:1 1;
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+    font-family: 'Rubik',sans-serif;
+    
+}
+
+.footer .box-container .box .logo{
+    font-size: 2rem;
+    color:black;
+}
+
+.footer .box-container .box i{
+    color:black;
+    
+}
+
+.footer .box-container .box p{
+    font-size: 1.7rem;
+    padding:1rem 0;
+    color:black;
+}
+
+.footer .box-container .box h3{
+    font-size: 1rem;
+    color:black;
+}
+
+.footer .box-container .box:nth-child(2){
+    text-align: center;
+}
+
+.footer .box-container .box:nth-child(2) a{
+    display: block;
+    font-size: 1rem;
+    padding:.4rem 0;
+    color:black;
+}
+
+.footer .box-container .box:nth-child(2) a:hover{
+    text-decoration: underline;
+}
+.footer h1,h6{
+    text-align: center;
+    margin: auto;
+}
+
+.footer .credit{
+    text-align: center;
+    width: 100%;
+    margin:0 auto;
+    padding:1.4rem 0;
+    border-top: .1rem solid rgba(0,0,0,.3);
+    color:rgb(2, 2, 2);
+    font-size: 1.5rem;
+
+}
+
+.footer .credit span{
+    color:rgb(5, 5, 5);
+}
+@media screen and (max-width: 767px){
+    .whatsapp-icon{
+        margin-top: 10px;
+    }
+    .whatsapp-float{
+        width: 40px;
+    height: 40px;
+    bottom: 20px;
+    right: 10px;
+    font-size: 22px;
+    }
+}
